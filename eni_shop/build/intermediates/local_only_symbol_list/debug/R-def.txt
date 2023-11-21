@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_moche_background
+color primary_color_app
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_launcher_moche_foreground
+id button
+id buttonSauvegarder
+id editTextPrix
+id editTextSortieInitiale
+id editTextTitre
+id edittextDescription
+id textInputDescription
+id textInputPrix
+id textInputSortieInitiale
+id textInputTitre
+id textView
+layout activity_create_article
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_moche
+mipmap ic_launcher_moche_round
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Demonstrations
+style Theme.Demonstrations
