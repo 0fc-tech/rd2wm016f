@@ -10,19 +10,19 @@
         android:theme="@style/Theme.Demonstrations">
         <!-- Déclaration activity Create Article-->
         <activity
-            android:name=".CreateArticleActivity"
+            android:name=".activity.CreateArticleActivity"
             android:exported="true" >
+
+        </activity>
+        <!--Déclaration Activity Main Activtiy-->
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!--Déclaration Activity Main Activtiy-->
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-
         </activity>
     </application>
 

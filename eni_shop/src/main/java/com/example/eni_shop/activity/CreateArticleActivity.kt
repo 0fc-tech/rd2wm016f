@@ -1,9 +1,10 @@
-package com.example.eni_shop
+package com.example.eni_shop.activity
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import com.example.eni_shop.R
 import com.example.eni_shop.dao.ArticleRepository
 import com.example.eni_shop.databinding.ActivityCreateArticleBinding
 
@@ -12,7 +13,8 @@ class CreateArticleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         acab = DataBindingUtil.setContentView(
-            this,R.layout.activity_create_article)
+            this, R.layout.activity_create_article
+        )
         acab.article = ArticleRepository.getArticle(1)/*Article(
             -1,
             "PS5",
