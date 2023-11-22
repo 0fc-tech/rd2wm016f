@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.eni_shop"
+    namespace = "com.example.mod4databinding"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.eni_shop"
+        applicationId = "com.example.mod4databinding"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -34,9 +34,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    //Permet à Gradle de créer les fichiers de binding
-    // (ils sont à crééer dans chaque layout grâce à la balise layout)
-    buildFeatures{
+    buildFeatures {
         dataBinding = true
     }
 }
@@ -45,7 +43,7 @@ dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.8.0")
+    implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

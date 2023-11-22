@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="article"
+            type="com.example.eni_shop.bo.Article" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -28,6 +30,7 @@
                 android:id="@+id/editTextTitre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@={article.titre}"
                 android:hint="Titre" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -47,6 +50,7 @@
                 android:id="@+id/edittextDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@={article.description}"
                 android:hint="Description" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,6 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Prix"
+                android:text="@{article.prix + `€`}"
                 android:inputType="number|numberDecimal" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -87,6 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Sortie initiale"
+                android:text="@{article.afficherDateSortie()}"
                 android:inputType="datetime" />
         </com.google.android.material.textfield.TextInputLayout>
 
