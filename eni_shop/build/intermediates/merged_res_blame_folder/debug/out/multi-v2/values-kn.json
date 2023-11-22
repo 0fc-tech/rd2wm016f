@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.eni_shop-mergeDebugResources-26:/values-kn/values-kn.xml",
+            "outputFile": "com.example.eni_shop-mergeDebugResources-33:/values-kn/values-kn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\70c2fa0bf50d26c3e000b5b20a108783\\transformed\\material-1.8.0\\res\\values-kn\\values-kn.xml",

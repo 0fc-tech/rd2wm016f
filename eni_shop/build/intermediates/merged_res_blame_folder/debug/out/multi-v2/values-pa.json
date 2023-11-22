@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.eni_shop-mergeDebugResources-26:/values-pa/values-pa.xml",
+            "outputFile": "com.example.eni_shop-mergeDebugResources-33:/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\d7df77ebda5981800df5740c98f42e89\\transformed\\appcompat-1.6.1\\res\\values-pa\\values-pa.xml",

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mod5navfragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_artilce_detail_host">ArtilceDetailHostActivity</string>
+    <string name="title_artilce_list">Articles</string>
+    <string name="title_artilce_detail">Artilce Detail</string>
+</resources>

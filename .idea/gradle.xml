@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/mod3demo4" />
             <option value="$PROJECT_DIR$/mod4databinding" />
             <option value="$PROJECT_DIR$/mod4findviewbyid" />
+            <option value="$PROJECT_DIR$/mod5navfragment" />
           </set>
         </option>
       </GradleProjectSettings>
