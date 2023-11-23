@@ -3076,6 +3076,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3320,6 +3321,10 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textViewDateSortie
+id textViewDesc
+id textViewPrix
+id textViewTitre
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon

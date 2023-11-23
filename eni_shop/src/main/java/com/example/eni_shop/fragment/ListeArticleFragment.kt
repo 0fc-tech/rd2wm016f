@@ -8,6 +8,7 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.eni_shop.R
+import com.example.eni_shop.dao.ArticleRepository
 
 
 class ListeArticleFragment : Fragment() {
@@ -23,7 +24,12 @@ class ListeArticleFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         view.findViewById<Button>(R.id.buttonToDetailArticle).setOnClickListener {
-            findNavController().navigate(R.id.action_listeArticleFragment_to_detailArticleFragment)
+            ArticleRepository.getArticle(1)?.let {article ->
+                val destination = ListeArticleFragmentDirections.
+                actionListeArticleFragmentToDetailArticleFragment(article)//TODO Récupérer Article
+                findNavController().navigate(destination)
+            }
+
         }
     }
 }

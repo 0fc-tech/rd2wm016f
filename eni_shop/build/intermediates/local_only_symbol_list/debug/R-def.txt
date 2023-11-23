@@ -17,6 +17,7 @@ id editTextSortieInitiale
 id editTextTitre
 id edittextDescription
 id fragmentContainerView
+id imageView
 id listeArticleFragment
 id navigation
 id textInputDescription
@@ -24,6 +25,10 @@ id textInputPrix
 id textInputSortieInitiale
 id textInputTitre
 id textView
+id textViewDateSortie
+id textViewDesc
+id textViewPrix
+id textViewTitre
 layout activity_create_article
 layout activity_main
 layout fragment_detail_article

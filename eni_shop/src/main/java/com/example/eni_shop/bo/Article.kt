@@ -1,11 +1,13 @@
 package com.example.eni_shop.bo
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 
 
-
+@Parcelize
 data class Article(
     val id: Long,
     var titre : String,
@@ -13,7 +15,7 @@ data class Article(
     var prix : Double,
     val urlImage: String,
     val dateSortie : LocalDateTime
-){
+) : Parcelable{
     fun afficherDateSortie() : String{
         val formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy ")
         return formatter.format(dateSortie)
