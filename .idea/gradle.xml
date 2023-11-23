@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/mod4findviewbyid" />
             <option value="$PROJECT_DIR$/mod5menu" />
             <option value="$PROJECT_DIR$/mod5navfragment" />
+            <option value="$PROJECT_DIR$/mod6intent" />
           </set>
         </option>
       </GradleProjectSettings>
