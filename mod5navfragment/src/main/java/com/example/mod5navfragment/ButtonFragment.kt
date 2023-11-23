@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
-import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 
 class ButtonFragment : Fragment() {
     override fun onCreateView(
@@ -21,8 +21,21 @@ class ButtonFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val button = view.findViewById<Button>(R.id.button)
         button.setOnClickListener {
-            Navigation.findNavController(view)
-                .navigate(R.id.action_buttonFragment_to_targetFragment)
+            val direction = ButtonFragmentDirections.
+                actionButtonFragmentToTargetFragment(User("Jean","Rez No"))
+           findNavController().navigate(direction)
+           //findNavController().navigate(R.id.action_buttonFragment_to_targetFragment)
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+

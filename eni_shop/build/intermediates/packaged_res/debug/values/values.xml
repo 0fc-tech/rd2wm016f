@@ -5,6 +5,7 @@
     <color name="primary_color_app">#FF60ECAD</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ENI Shop</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="Base.Theme.Demonstrations" parent="Theme.Material3.DayNight.NoActionBar">
         
         

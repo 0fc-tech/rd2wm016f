@@ -18,5 +18,9 @@
         android:id="@+id/targetFragment"
         android:name="com.example.mod5navfragment.TargetFragment"
         android:label="fragment_target"
-        tools:layout="@layout/fragment_target" />
+        tools:layout="@layout/fragment_target" >
+        <argument
+            android:name="user"
+            app:argType="com.example.mod5navfragment.User" />
+    </fragment>
 </navigation>
