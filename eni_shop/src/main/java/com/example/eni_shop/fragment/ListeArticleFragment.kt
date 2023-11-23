@@ -22,7 +22,7 @@ class ListeArticleFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        view.findViewById<Button>(R.id.button).setOnClickListener {
+        view.findViewById<Button>(R.id.buttonToDetailArticle).setOnClickListener {
             findNavController().navigate(R.id.action_listeArticleFragment_to_detailArticleFragment)
         }
     }
