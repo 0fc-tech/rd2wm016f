@@ -16,7 +16,7 @@
         </activity>
         <!--Déclaration Activity Main Activtiy-->
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
