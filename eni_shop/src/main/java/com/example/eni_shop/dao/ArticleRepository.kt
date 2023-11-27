@@ -8,6 +8,9 @@ object ArticleRepository {
     fun getArticle(id: Long): Article? {
         return articleDaoMemory.selectById(id);
     }
+    fun getAllArticle(): List<Article> {
+        return articleDaoMemory.selectAll();
+    }
     fun addArticle(article: Article): Long {
         return articleDaoMemory.add(article)
     }

@@ -33,7 +33,7 @@
         </activity>
         <!-- Déclaration Activity Main Activtiy -->
         <activity
-            android:name="com.example.eni_shop.activity.MainActivity"
+            android:name="com.example.eni_shop.activity.HomeActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

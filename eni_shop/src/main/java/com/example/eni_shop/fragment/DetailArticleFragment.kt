@@ -1,5 +1,8 @@
 package com.example.eni_shop.fragment
 
+import android.app.SearchManager
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -23,6 +26,21 @@ class DetailArticleFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.article = args.article
+        binding.textViewTitre.setOnClickListener {
+            searchWeb("eni-shop " + binding.article!!.titre)
+        }
     }
+    fun searchWeb(query: String) {
+        val intent = Intent(Intent.ACTION_WEB_SEARCH).apply {
+            putExtra(SearchManager.QUERY, query)
+        }
+        startActivity(intent)
+    }
+    fun searchURL(url: String) {
+        val intent = Intent(Intent.ACTION_VIEW)
+        intent.data = Uri.parse(url)
+        startActivity(intent)
+    }
+
 
 }

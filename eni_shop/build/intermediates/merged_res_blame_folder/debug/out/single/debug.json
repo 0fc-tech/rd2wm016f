@@ -8,6 +8,10 @@
         "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout\\fragment_liste_article.xml"
     },
     {
+        "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout-night_activity_home.xml.flat",
+        "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout-night\\activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout\\activity_main.xml"
     },
@@ -36,6 +40,10 @@
         "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout\\activity_create_article.xml"
     },
     {
+        "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout-land_activity_home.xml.flat",
+        "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout-land\\activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\mipmap-xxhdpi_ic_launcher_moche_round.webp.flat",
         "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\mipmap-xxhdpi\\ic_launcher_moche_round.webp"
     },
@@ -56,12 +64,16 @@
         "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\mipmap-xxxhdpi\\ic_launcher_moche.webp"
     },
     {
-        "merged": "com.example.eni_shop-merged_res-50:/layout_fragment_liste_article.xml.flat",
-        "source": "com.example.eni_shop-main-52:/layout/fragment_liste_article.xml"
+        "merged": "com.example.eni_shop-merged_res-50:/layout_activity_home.xml.flat",
+        "source": "com.example.eni_shop-main-52:/layout/activity_home.xml"
     },
     {
         "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\mipmap-xxxhdpi_ic_launcher_moche_round.webp.flat",
         "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\mipmap-xxxhdpi\\ic_launcher_moche_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -94,6 +106,10 @@
     {
         "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout-land_activity_main.xml.flat",
         "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\drawable_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\drawable\\baseline_add_24.xml"
     },
     {
         "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout-night_activity_main.xml.flat",

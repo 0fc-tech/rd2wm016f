@@ -50,7 +50,7 @@
 34        <!-- Déclaration Activity Main Activtiy -->
 35        <activity
 35-->C:\Users\qrouet\AndroidStudioProjects\Demonstrations\eni_shop\src\main\AndroidManifest.xml:18:9-26:20
-36            android:name="com.example.eni_shop.activity.MainActivity"
+36            android:name="com.example.eni_shop.activity.HomeActivity"
 36-->C:\Users\qrouet\AndroidStudioProjects\Demonstrations\eni_shop\src\main\AndroidManifest.xml:19:13-50
 37            android:exported="true" >
 37-->C:\Users\qrouet\AndroidStudioProjects\Demonstrations\eni_shop\src\main\AndroidManifest.xml:20:13-36

@@ -2745,6 +2745,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_add_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3038,6 +3039,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fabCreateArticle
 id fade
 id fill
 id fill_horizontal
@@ -3323,6 +3325,7 @@ id textTop
 id textView
 id textViewDateSortie
 id textViewDesc
+id textViewListArticles
 id textViewPrix
 id textViewTitre
 id textWatcher
@@ -3482,7 +3485,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_create_article
-layout activity_main
+layout activity_home
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
