@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/mod6intent" />
             <option value="$PROJECT_DIR$/mod7configchange" />
             <option value="$PROJECT_DIR$/mod7lifecycle" />
+            <option value="$PROJECT_DIR$/mod8orm" />
           </set>
         </option>
       </GradleProjectSettings>
