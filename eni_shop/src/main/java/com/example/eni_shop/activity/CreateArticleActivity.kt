@@ -2,6 +2,7 @@ package com.example.eni_shop.activity
 
 import android.os.Bundle
 import android.widget.Toast
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.eni_shop.R
@@ -14,6 +15,7 @@ import java.time.format.DateTimeFormatter
 
 class CreateArticleActivity : AppCompatActivity() {
     lateinit var acab : ActivityCreateArticleBinding
+    val cavm by viewModels<CreateArticleViewModel>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         acab = DataBindingUtil.setContentView(
@@ -36,7 +38,7 @@ class CreateArticleActivity : AppCompatActivity() {
                 "url",
                 stringToLocalDate(acab.editTextSortieInitiale.text.toString())
             )
-            ArticleRepository.addArticle(articleToSave)
+            cavm.addArticle(articleToSave)
             finish()
         }
     }
