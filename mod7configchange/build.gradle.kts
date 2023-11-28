@@ -43,6 +43,8 @@ dependencies {
     //Permet l'utilisation des extensions kotlin pour les activités
     //Exemple by navArgs ou by viewModels()
     implementation("androidx.activity:activity-ktx:1.8.1")
+    // by viewModels mais pour un fragment
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
 
 
     implementation("androidx.core:core-ktx:1.9.0")
