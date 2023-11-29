@@ -4,7 +4,7 @@
             "outputFile": "com.example.demonstrations.app-mergeDebugResources-42:/values-pa/values-pa.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\d7df77ebda5981800df5740c98f42e89\\transformed\\appcompat-1.6.1\\res\\values-pa\\values-pa.xml",
+                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\d8ff3e926b87c46b3c334fdaa8006c8b\\transformed\\appcompat-1.6.1\\res\\values-pa\\values-pa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\70c2fa0bf50d26c3e000b5b20a108783\\transformed\\material-1.8.0\\res\\values-pa\\values-pa.xml",
+                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\b2ea4b26dd69186f27f71df0ddb9014f\\transformed\\navigation-ui-2.5.3\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,170",
+                        "endColumns": "114,117",
+                        "endOffsets": "165,283"
+                    },
+                    "to": {
+                        "startLines": "94,95",
+                        "startColumns": "4,4",
+                        "startOffsets": "7709,7824",
+                        "endColumns": "114,117",
+                        "endOffsets": "7819,7937"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\723f599d71cbb479fe37606c8100b497\\transformed\\material-1.8.0\\res\\values-pa\\values-pa.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\2d1e88457888b72faf26eea846180dfe\\transformed\\navigation-ui-2.5.3\\res\\values-pa\\values-pa.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,170",
-                        "endColumns": "114,117",
-                        "endOffsets": "165,283"
-                    },
-                    "to": {
-                        "startLines": "94,95",
-                        "startColumns": "4,4",
-                        "startOffsets": "7709,7824",
-                        "endColumns": "114,117",
-                        "endOffsets": "7819,7937"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\1dc4e537ab8bb504569a422ebbb76397\\transformed\\core-1.9.0\\res\\values-pa\\values-pa.xml",
+                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\f23417957d5e95240d9be321e5e616c3\\transformed\\core-1.9.0\\res\\values-pa\\values-pa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -4,7 +4,7 @@
             "outputFile": "com.example.mod2launchericon-mergeDebugResources-29:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\d7df77ebda5981800df5740c98f42e89\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\d8ff3e926b87c46b3c334fdaa8006c8b\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\1dc4e537ab8bb504569a422ebbb76397\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\qrouet\\.gradle\\caches\\transforms-3\\f23417957d5e95240d9be321e5e616c3\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

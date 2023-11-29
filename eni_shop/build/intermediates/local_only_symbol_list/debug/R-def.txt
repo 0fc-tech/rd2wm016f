@@ -22,6 +22,7 @@ id fragmentContainerView
 id imageView
 id listeArticleFragment
 id navigation
+id recyclerViewArticles
 id textInputDescription
 id textInputPrix
 id textInputSortieInitiale
@@ -34,6 +35,7 @@ id textViewPrix
 id textViewTitre
 layout activity_create_article
 layout activity_home
+layout article_line
 layout fragment_detail_article
 layout fragment_liste_article
 mipmap ic_launcher

@@ -3255,6 +3255,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guideline
 id header_title
 id hideable
 id home

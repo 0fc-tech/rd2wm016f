@@ -1,15 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout_article_line.xml.flat",
+        "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout\\article_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout-night_activity_home.xml.flat",
+        "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout-night\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout_fragment_liste_article.xml.flat",
         "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout\\fragment_liste_article.xml"
     },
     {
-        "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout-night_activity_home.xml.flat",
-        "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\layout-night\\activity_home.xml"
+        "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-main-52:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\layout_activity_main.xml.flat",
@@ -66,6 +70,10 @@
     {
         "merged": "com.example.eni_shop-merged_res-50:/layout_activity_home.xml.flat",
         "source": "com.example.eni_shop-main-52:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.eni_shop-merged_res-50:/layout_fragment_liste_article.xml.flat",
+        "source": "com.example.eni_shop-main-52:/layout/fragment_liste_article.xml"
     },
     {
         "merged": "C:\\Users\\qrouet\\.gradle\\daemon\\8.0\\com.example.eni_shop-merged_res-50:\\mipmap-xxxhdpi_ic_launcher_moche_round.webp.flat",

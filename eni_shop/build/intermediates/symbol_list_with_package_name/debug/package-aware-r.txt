@@ -3211,6 +3211,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewArticles
 id report_drawn
 id reverseSawtooth
 id right
@@ -3486,6 +3487,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_create_article
 layout activity_home
+layout article_line
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

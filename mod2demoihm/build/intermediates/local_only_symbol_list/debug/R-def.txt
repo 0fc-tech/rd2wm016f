@@ -12,6 +12,7 @@ id editTextDate
 id editTextNom
 id editTextPrenom
 id editTextTime
+id guideline
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
