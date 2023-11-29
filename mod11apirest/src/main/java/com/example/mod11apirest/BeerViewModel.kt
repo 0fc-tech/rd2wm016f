@@ -10,7 +10,7 @@ import okhttp3.Request
 import org.json.JSONArray
 
 class BeerViewModel : ViewModel() {
-    val listBeers = MutableLiveData(arrayListOf<Beer>())
+    val listBeers = MutableLiveData<ArrayList<Beer>>()
     fun getListBeers(){
         val client = OkHttpClient()
         val requestDisneyCharacters = Request.Builder()
