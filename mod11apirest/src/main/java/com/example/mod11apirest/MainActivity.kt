@@ -1,10 +1,10 @@
 package com.example.mod11apirest
 
 import android.os.Bundle
-import android.widget.ImageView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.squareup.picasso.Picasso
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 private const val TAG = "MainActivity"
 class MainActivity : AppCompatActivity() {
@@ -12,10 +12,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val imageView = findViewById<ImageView>(R.id.imageViewBeer)
+        val recyclerView = findViewById<RecyclerView>(R.id.recyclerViewBeers)
+        recyclerView.layoutManager = LinearLayoutManager(this)
         vm.listBeers.observe(this){listBeers->
             if(listBeers.isNotEmpty())
-                Picasso.get().load(listBeers.last().image_url).into(imageView)
+                recyclerView.adapter = BeerAdapter(listBeers)
         }
         vm.getListBeers()
     }
